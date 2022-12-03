@@ -22,7 +22,7 @@ FreedomOfSpeech.lol allows one person at a time to display any URL, currently su
 
 For example: If someone changed URL for 1 ETH then he/she will get 1.10 ETH or more, if his content get replaced. (We calculated, user will not be in loss if wheel keeps on running!)
 
-# Prerequisite
+# Usage
 
 1. Metamask wallet with some Ether (currently it's on Mumbai testnet)
 2. Visit https://freedomofspeech.lol
