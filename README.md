@@ -24,7 +24,7 @@ For example: If someone changed URL for 1 ETH then he/she will get 1.10 ETH or m
 
 # Usage
 
-1. Metamask wallet with some Ether (currently it's on Mumbai testnet)
+1. Metamask wallet with some MATIC (currently it's on Polygon Mumbai testnet)
 2. Visit https://freedomofspeech.lol
 3. Scroll down to the bottom
 4. Enter URL of any PNG/JPG/GIF
