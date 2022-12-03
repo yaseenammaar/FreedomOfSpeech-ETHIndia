@@ -40,7 +40,7 @@ const erc20Abi = [
 			{
 				"indexed": false,
 				"internalType": "bool",
-				"name": "refunded",
+				"name": "redunded",
 				"type": "bool"
 			}
 		],
@@ -48,29 +48,16 @@ const erc20Abi = [
 		"type": "event"
 	},
 	{
-		"inputs": [
+		"inputs": [],
+		"name": "URL",
+		"outputs": [
 			{
 				"internalType": "string",
-				"name": "url",
+				"name": "",
 				"type": "string"
 			}
 		],
-		"name": "sendEth",
-		"outputs": [],
-		"stateMutability": "payable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "url",
-				"type": "string"
-			}
-		],
-		"name": "sendEthTest",
-		"outputs": [],
-		"stateMutability": "payable",
+		"stateMutability": "view",
 		"type": "function"
 	},
 	{
@@ -152,21 +139,21 @@ const erc20Abi = [
 		"type": "function"
 	},
 	{
-		"inputs": [],
-		"name": "URL",
-		"outputs": [
+		"inputs": [
 			{
 				"internalType": "string",
-				"name": "",
+				"name": "url",
 				"type": "string"
 			}
 		],
-		"stateMutability": "view",
+		"name": "sendEth",
+		"outputs": [],
+		"stateMutability": "payable",
 		"type": "function"
 	}
 ];
 
-const addr = "0x1269A2AB42049D75059a42B3CAa74b33184A9a48";
+const addr = "0xd9145CCE52D386f254917e481eB44e9943F39138";
 
 export const init = async (needWallet) => {
 	// let provider = window.ethereum;
