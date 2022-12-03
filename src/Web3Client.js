@@ -48,16 +48,16 @@ const erc20Abi = [
 		"type": "event"
 	},
 	{
-		"inputs": [],
-		"name": "URL",
-		"outputs": [
+		"inputs": [
 			{
 				"internalType": "string",
-				"name": "",
+				"name": "url",
 				"type": "string"
 			}
 		],
-		"stateMutability": "view",
+		"name": "sendEth",
+		"outputs": [],
+		"stateMutability": "payable",
 		"type": "function"
 	},
 	{
@@ -139,16 +139,16 @@ const erc20Abi = [
 		"type": "function"
 	},
 	{
-		"inputs": [
+		"inputs": [],
+		"name": "URL",
+		"outputs": [
 			{
 				"internalType": "string",
-				"name": "url",
+				"name": "",
 				"type": "string"
 			}
 		],
-		"name": "sendEth",
-		"outputs": [],
-		"stateMutability": "payable",
+		"stateMutability": "view",
 		"type": "function"
 	}
 ];
