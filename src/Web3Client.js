@@ -153,7 +153,7 @@ const erc20Abi = [
 	}
 ];
 
-const addr = "0xd9145CCE52D386f254917e481eB44e9943F39138";
+const addr = "0x59bb0c7da51a195Aed7508Fa9C5c485CeF3b187a";
 
 export const init = async (needWallet) => {
 	// let provider = window.ethereum;
@@ -163,7 +163,7 @@ export const init = async (needWallet) => {
 	// const networkId = await web3.eth.net.getId();
 	// const web3 = new Web3("https://ropsten.etherscan.io")
 	
-	const web3 = new Web3('https://ropsten.infura.io/v3/b23a8473dbd64275ae7528954cfc53a9');
+	const web3 = new Web3('https://rpc-mumbai.matic.today/');
 
 	// erc20Contract = web3.eth.contract(erc20Abi).at(addr);
 	erc20Contract = new web3.eth.Contract(

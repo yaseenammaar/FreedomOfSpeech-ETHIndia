@@ -11,9 +11,9 @@ import {
 import logo from "./logo.png";
 
 export default function App() {
-	const [URL, setURL] = useState(0);
+	const [URL, setURL] = useState("https://devfolio.co/blog/content/images/2021/04/ethindia-1.jpg");
   const [inputURL, setInputURL] = useState(0);
-  const [NextPrice, setNextPrice] = useState(0);
+  const [NextPrice, setNextPrice] = useState(1);
   const [showAbout, setShowAbout] = useState(false);
   const [showWorking, setShowWorking] = useState(false);
 
@@ -38,13 +38,24 @@ export default function App() {
 				console.log(err);
 			});
 	};
-  const updateURL = (url, value) => {
+  const updateURL = async (url, value) => {
 		updateURLtoBC(url, value);
+
+    function timeout(delay) {
+        return new Promise( res => setTimeout(res, delay) );
+    }
+    await timeout(8000);
+
+    setURL("https://ethindia.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.fbc70285.png&w=3840&q=75")
+
 	};
+
+  
 
   fetchURL();
 
   fetchNextPrice();
+
 
 
   function classNames(...classes) {
