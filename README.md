@@ -2,7 +2,7 @@
 
 Freedom of Speech is a simple Decentralized Web App developed with Solidity and React, currently in testing stage.
 
-## Visit https://freedom-of-speech-eth-india.vercel.app/
+## Visit https://freedomofspeech.lol
 
 Freedom Of Speech: Giving right to speak, One person at a time!
 
@@ -22,10 +22,10 @@ FreedomOfSpeech.lol allows one person at a time to display any URL, currently su
 
 For example: If someone changed URL for 1 ETH then he/she will get 1.10 ETH or more, if his content get replaced. (We calculated, user will not be in loss if wheel keeps on running!)
 
-# Prerequisite
+# Usage
 
-1. Metamask wallet with some Ether (currently it's on Ropsten Testnet, so you can request test faucet from https://faucet.egorfine.com/)
-2. Visit https://freedom-of-speech-eth-india.vercel.app/
+1. Metamask wallet with some MATIC (currently it's on Polygon Mumbai testnet)
+2. Visit https://freedomofspeech.lol
 3. Scroll down to the bottom
 4. Enter URL of any PNG/JPG/GIF
 5. Hit "Change"
@@ -34,9 +34,8 @@ For example: If someone changed URL for 1 ETH then he/she will get 1.10 ETH or m
 
 
 # Status
-Currently FreedomOfSpeech.lol is deployed on Ropsten Test Network, you can use Ropsten Faucet to test the app. Will deploy it to ETH mainnet soon.
 
-Powered by Ethereum Ξ
+Powered by Polygon & Ethereum Ξ
 
 ![alt text](./1500x500.jpeg)
 
