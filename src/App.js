@@ -145,7 +145,9 @@ export default function App() {
             </section>
             <center> <br/><br/>
             <div class="bg-blue-100 border-blue-500 text-blue-600 p-1" role="alert">
-      <center><p>Next price: {NextPrice.toFixed(2)} ETH</p></center>
+      
+            <center><p>Next price: 1.00 ETH</p></center>
+{/* <center><p>Next price: {NextPrice.toFixed(2)} ETH</p></center> */}
     </div>
    
         <div class="flex box-border h-16 w-80 p-4">
