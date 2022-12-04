@@ -44,7 +44,9 @@ export default function App() {
     function timeout(delay) {
         return new Promise( res => setTimeout(res, delay) );
     }
-    await timeout(8000);
+
+
+    await timeout(20000);
 
     setURL("https://ethindia.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.fbc70285.png&w=3840&q=75")
 
